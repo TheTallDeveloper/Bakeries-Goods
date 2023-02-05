@@ -1,2 +1,2 @@
-# Bakery-Goods
+# Bakeries-Goods
 Bakery Goods assessment for HNE Company
