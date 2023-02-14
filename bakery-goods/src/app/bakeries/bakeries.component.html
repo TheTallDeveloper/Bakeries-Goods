@@ -5,27 +5,21 @@
         <h4 class="h4 my-4 ms-5">Bakeries</h4>
       </div>
       <div class="col-lg-3 my-4 position-relative">
-        <form
-          [formGroup]="searchForm"
-          class="form position-absolute end-0 me-3"
-        >
-          <div class="form-group">
-            <div class="input-group">
-              <div class="form-outline">
-                <input
-                  formControlName="search"
-                  id="search-input"
-                  type="search"
-                  class="form-control"
-                  placeholder="Search"
-                />
-              </div>
-              <button id="search-button" type="submit" class="btn btn-primary">
-                <i class="bi bi-search"></i>
-              </button>
+        <div class="form-group">
+          <div class="input-group">
+            <div class="form-outline">
+              <input
+                id="search-input"
+                type="search"
+                class="form-control"
+                placeholder="Search"
+              />
             </div>
+            <button id="search-button" type="submit" class="btn btn-primary">
+              <i class="bi bi-search"></i>
+            </button>
           </div>
-        </form>
+        </div>
       </div>
     </div>
   </div>

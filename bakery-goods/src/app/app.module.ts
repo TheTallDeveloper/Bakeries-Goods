@@ -15,7 +15,6 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
 import { BakeriesComponent } from './bakeries/bakeries.component';
 import { OrderItemComponent } from './order-item/order-item.component';
 import { ReactiveFormsModule } from '@angular/forms';
-import { SearchFilterPipe } from './search-filter.pipe';
 
 @NgModule({
   declarations: [
@@ -30,7 +29,6 @@ import { SearchFilterPipe } from './search-filter.pipe';
     ContactUsComponent,
     BakeriesComponent,
     OrderItemComponent,
-    SearchFilterPipe,
   ],
   imports: [BrowserModule, AppRoutingModule, NgbModule, ReactiveFormsModule],
   providers: [],
